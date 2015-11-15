@@ -1,7 +1,7 @@
 ##main
-import from lib_mod mult
+from lib_mod import mult, add
 
-def main():
- 
-    mult(5,12)
+if __name__ == '__main__': 
+    print mult(5,12)
+    print add(5,12)
 
